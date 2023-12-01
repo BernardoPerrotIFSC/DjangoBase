@@ -1,0 +1,25 @@
+mkdir django
+cd django
+python -m venv ambiente
+ambiente\Scripts\activate
+pip install django
+django-admin startproject tarefas
+cd tarefas
+python manage.py run server - rodar aplicação
+python manage.py migrate - efetivar o banco de dados alterações
+python manage.py createsuperuser- criar um super user
+Username: bernardo
+passord: 12345678
+email: bernardo.sp@aluno.ifsc.edu.br 
+python manage.py run server - rodar aplicação
+/admin
+django-admin startapp main - criar novo app
+settings.py installed_app['main']
+admin
+python manage.py shell
+
+python manage.py startapp register; ou django-admin startapp register
+
+pip install django-crispy-forms
+pip install crispy-bootstrap4
+
